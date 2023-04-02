@@ -5,12 +5,11 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-import javax.xml.xpath.XPath;
 import java.math.BigDecimal;
 import java.math.RoundingMode;
 
 public class SavingsPage {
-    private WebDriver driver;
+    private final WebDriver driver;
     @FindBy(css = "[data-testid=\"input\"]")
     private WebElement amountField;
     @FindBy(css = "[data-testid=\"reachDateIncrement\"]")
@@ -27,7 +26,7 @@ public class SavingsPage {
     }
 
     public SavingsPage insertAmount(String totalAmount) {
-        this.totalAmount = totalAmount;
+        SavingsPage.totalAmount = totalAmount;
         amountField.sendKeys(totalAmount);
 
         return new SavingsPage(driver);
@@ -42,7 +41,7 @@ public class SavingsPage {
     }
 
     public SavingsPage setEndDate(int months) {
-        this.months = months;
+        SavingsPage.months = months;
         int count = 0;
         while (count < months) {
             incrementDate.click();
