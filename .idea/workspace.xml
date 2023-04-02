@@ -4,11 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c0e1d15-921b-426f-a0f6-650d14d6ebfe" name="Changes" comment="" />
+    <list default="true" id="6c0e1d15-921b-426f-a0f6-650d14d6ebfe" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/data/Numbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/pages/SavingsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/pages/SavingsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Features/SavingsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Features/SavingsTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -18,17 +33,72 @@
     </option>
   </component>
   <component name="ProjectId" id="2Nqtx0LtfC33NG2aIwtVE4bsKAg" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RunManager" selected="Application.Numbers">
+    <configuration name="Numbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.data.Numbers" />
+      <module name="original" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.data.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SavingsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="original" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Features.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Features" />
+      <option name="MAIN_CLASS_NAME" value="Features.SavingsTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SavingsTest.TestMonthlyDepositAccuracy" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="original" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Features.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Features" />
+      <option name="MAIN_CLASS_NAME" value="Features.SavingsTest" />
+      <option name="METHOD_NAME" value="TestMonthlyDepositAccuracy" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Numbers" />
+        <item itemvalue="JUnit.SavingsTest.TestMonthlyDepositAccuracy" />
+        <item itemvalue="JUnit.SavingsTest" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
