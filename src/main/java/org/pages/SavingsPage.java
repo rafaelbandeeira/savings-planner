@@ -14,7 +14,7 @@ public class SavingsPage {
     private WebElement amountField;
     @FindBy(css = "[data-testid=\"reachDateIncrement\"]")
     private WebElement incrementDate;
-    @FindBy(xpath = "//*[@id=\"root\"]/div[2]/div/div[3]/div/div[1]/div/div[2]/p/text()[2]")
+    @FindBy(xpath = "//*[@id=\"root\"]/div[2]/div/div[3]/div/div[1]/div/div[2]")
     private WebElement monthlyDeposit;
 
     private static String totalAmount;
@@ -42,7 +42,7 @@ public class SavingsPage {
 
     public SavingsPage setEndDate(int months) {
         SavingsPage.months = months;
-        int count = 0;
+        int count = 1;
         while (count < months) {
             incrementDate.click();
             count++;
@@ -53,6 +53,7 @@ public class SavingsPage {
 
     public BigDecimal getMonthlyDeposit() {
         String value = monthlyDeposit.getText().replace(Character.toString(','), "");
+        value = value.replace(Character.toString('$'), "");
         return new BigDecimal(value);
     }
 
