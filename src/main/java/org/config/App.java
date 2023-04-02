@@ -3,8 +3,8 @@ package org.config;
 import java.util.Objects;
 
 public abstract class App {
-    public static final String DEV_SAVING_PLANNER = "http://qa-assignment.useorigin.com.s3-website-us-east-1.amazonaws.com/";
-    public static final String PROD_SAVING_PLANNER = "";
+    private static final String DEV_SAVING_PLANNER = "http://qa-assignment.useorigin.com.s3-website-us-east-1.amazonaws.com/";
+    private static final String PROD_SAVING_PLANNER = "";
 
     public static String getAppUrl() {
         if (Objects.equals(System.getenv("ENV"), "PROD"))
