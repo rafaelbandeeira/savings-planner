@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6c0e1d15-921b-426f-a0f6-650d14d6ebfe" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/data/Numbers.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/pages/SavingsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/pages/SavingsPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Features/SavingsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Features/SavingsTest.java" afterDir="false" />
@@ -46,7 +45,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Numbers">
+  <component name="RunManager" selected="JUnit.SavingsTest.TestMonthlyDepositAccuracy">
     <configuration name="Numbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.data.Numbers" />
       <module name="original" />
@@ -93,8 +92,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Numbers" />
         <item itemvalue="JUnit.SavingsTest.TestMonthlyDepositAccuracy" />
+        <item itemvalue="Application.Numbers" />
         <item itemvalue="JUnit.SavingsTest" />
       </list>
     </recent_temporary>
