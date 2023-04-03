@@ -2,10 +2,8 @@ package Features;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.config.App;
-import org.junit.jupiter.api.Assertions;
-import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.DisplayName;
-import org.junit.jupiter.api.Test;
+import org.data.Numbers;
+import org.junit.jupiter.api.*;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -29,11 +27,17 @@ public class SavingsTest {
 
         browser.get(App.getAppUrl());
     }
+
+    @AfterEach
+    void teardown() {
+        browser.quit();
+    }
+
     @Test
     @DisplayName("Check the accuracy of the suggested monthly deposit")
     void TestMonthlyDepositAccuracy() {
         SavingsPage savings = new SavingsPage(browser)
-                .insertAmount("24234254")
+                .insertAmount(Numbers.getRandomInt(1000000, 6000000))
                 .setEndDate(25);
 
         Assertions.assertEquals(
